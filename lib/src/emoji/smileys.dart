@@ -557,6 +557,21 @@ List smileysList = [
     ['face', 'face with steam from nose', 'triumph', 'won']
   ],
   [
+    '🫨',
+    'shaking face',
+    [
+      'anticipation',
+      'confusion',
+      'disbelief',
+      'dizziness',
+      'double takes',
+      'double vision',
+      'excitement',
+      'fear',
+      'shock'
+    ]
+  ],
+  [
     '😡',
     'pouting face',
     ['angry', 'face', 'mad', 'pouting', 'rage', 'red']
@@ -790,6 +805,21 @@ List smileysList = [
     ['heart', 'red heart']
   ],
   [
+    '🩷',
+    'pink heart',
+    ['pink', 'pink heart', 'love', 'friendship', 'feelings of warmth']
+  ],
+  [
+    '🩵',
+    'light blue heart',
+    ['light blue', 'light blue heart']
+  ],
+  [
+    '🩶',
+    'grey heart',
+    ['grey', 'grey heart']
+  ],
+  [
     '🧡',
     'orange heart',
     ['orange', 'orange heart']
@@ -933,6 +963,15 @@ List smileysList = [
     '🫲',
     '⊛ leftwards hand',
     ['hand', 'left', 'leftward']
+  ],
+   [
+    '🫸',
+    'rightwards pushing hand',
+    ['hand', 'push', 'right', 'rightwards pushing hand']
+  ], [
+    '🫷',
+    'leftwards pushing hand',
+    ['hand', 'push', 'left', 'leftwards pushing hand']
   ],
   [
     '🫳',

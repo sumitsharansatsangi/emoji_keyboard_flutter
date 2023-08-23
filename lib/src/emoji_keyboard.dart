@@ -231,14 +231,14 @@ class EmojiBoard extends State<EmojiKeyboard> {
       // The emoji is already in the list so we want to update it.
       Emoji currentEmoji = recent.firstWhere((emote) => emote.emoji == emoji);
       currentEmoji.increase();
-      storage.updateEmoji(currentEmoji).then((value) {
+      storage.addEmoji(currentEmoji).then((value) {
         recent.sort((a, b) => b.amount.compareTo(a.amount));
         setState(() {
           recentEmojis = recent.map((emote) => emote.emoji).toList();
         });
       });
     } else {
-      Emoji newEmoji = Emoji(emoji, 1);
+      Emoji newEmoji = Emoji()..emoji=emoji ..amount= 1;
       storage.addEmoji(newEmoji).then((emotion) {
         recent.add(newEmoji);
         recent.sort((a, b) => b.amount.compareTo(a.amount));
@@ -258,14 +258,14 @@ class EmojiBoard extends State<EmojiKeyboard> {
       // The emoji is already in the list so we want to update it.
       Emoji currentEmoji = recent.firstWhere((emote) => emote.emoji == emoji);
       currentEmoji.increase();
-      storage.updateEmoji(currentEmoji).then((value) {
+      storage.addEmoji(currentEmoji).then((value) {
         recent.sort((a, b) => b.amount.compareTo(a.amount));
         setState(() {
           recentEmojis = recent.map((emote) => emote.emoji).toList();
         });
       });
     } else {
-      Emoji newEmoji = Emoji(emoji, 1);
+      Emoji newEmoji = Emoji()..emoji= emoji ..amount= 1;
       storage.addEmoji(newEmoji).then((emotion) {
         recent.add(newEmoji);
         recent.sort((a, b) => b.amount.compareTo(a.amount));

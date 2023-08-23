@@ -1,5 +1,10 @@
 List symbolsList = [
   [
+    '🛜',
+    'wireless',
+    ['internet', 'network', 'wifi', 'wireless']
+  ],
+  [
     '🏧',
     'ATM sign',
     ['atm', 'ATM sign', 'automated', 'bank', 'teller']

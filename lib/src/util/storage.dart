@@ -1,5 +1,5 @@
-import 'package:sqflite/sqflite.dart';
-import 'package:path/path.dart';
+import 'package:isar/isar.dart';
+import 'package:path_provider/path_provider.dart';
 import 'emoji.dart';
 
 /// The storage. This holds all the components of the local db.
@@ -10,11 +10,10 @@ import 'emoji.dart';
 /// - add a emoji emoji entry in the db.
 /// - update an existing emoji entry to increase the count.
 class Storage {
-  static const _dbName = "emoji_keyboard.db";
 
   static final Storage _instance = Storage._internal();
 
-  var based;
+  Isar? isar;
 
   factory Storage() {
     return _instance;
@@ -22,70 +21,25 @@ class Storage {
 
   Storage._internal();
 
-  Future<Database> get database async {
-    if (based != null) return based;
-    based = await _initDatabase();
-    return based;
-  }
-
-  /// Creates and opens the database.
-  _initDatabase() async {
-    var databasesPath = await getDatabasesPath();
-    String path = join(databasesPath, _dbName);
-
-    return await openDatabase(
-      path,
-      version: 1,
-      onCreate: _onCreate,
-    );
-  }
-
-  /// Creates the database structure (unless database has already been created)
-  Future _onCreate(
-    Database db,
-    int version,
-  ) async {
-    await createTableEmoji(db);
-  }
-
-  createTableEmoji(Database db) async {
-    await db.execute('''
-    CREATE TABLE Emojis (
-            id INTEGER PRIMARY KEY,
-            emoji TEXT,
-            amount INTEGER,
-            UNIQUE(emoji) ON CONFLICT REPLACE
-          );
-          ''');
+  Future<Isar?> get database async {
+    if (isar != null) return isar;
+    final dir = await getApplicationSupportDirectory();
+    isar = await Isar.open([
+      EmojiSchema,
+    ], directory: dir.path, inspector: false);
+    return isar;
   }
 
   Future<List<Emoji>> fetchAllEmojis() async {
-    Database database = await this.database;
-    String query = "SELECT * FROM Emojis";
-    List<Map<String, dynamic>> emojis = await database.rawQuery(query);
-    if (emojis.isNotEmpty) {
-      return emojis.map((map) => Emoji.fromDbMap(map)).toList();
-    }
+    Isar? isar = await this.database;
+    if (isar != null) return await isar.emojis.where().findAll();
     return List.empty();
   }
 
   Future<int> addEmoji(Emoji emoji) async {
-    Database database = await this.database;
-    return database.insert(
-      'Emojis',
-      emoji.toDbMap(),
-      conflictAlgorithm: ConflictAlgorithm.replace,
-    );
-  }
-
-  Future<int> updateEmoji(Emoji emoji) async {
-    Database database = await this.database;
-    return database.update(
-      'Emojis',
-      emoji.toDbMap(),
-      where: 'emoji = ?',
-      whereArgs: [emoji.emoji],
-      conflictAlgorithm: ConflictAlgorithm.replace,
-    );
+    Isar? isar = await this.database;
+   return await isar!.writeTxn<int>(() async {
+    return await isar.emojis.put(emoji);
+   });
   }
 }

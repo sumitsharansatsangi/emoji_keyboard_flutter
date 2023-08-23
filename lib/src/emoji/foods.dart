@@ -1,5 +1,10 @@
 List foodsList = [
   [
+    '🫛',
+    'pea pod',
+    ['vegetable', 'green', 'pea', 'pea pod', 'pod']
+  ],
+  [
     '🍇',
     'grapes',
     ['fruit', 'grape', 'grapes']
@@ -293,6 +298,11 @@ List foodsList = [
     '🥚',
     'egg',
     ['breakfast', 'egg', 'food']
+  ],
+  [
+    '🫚',
+    'ginger',
+    ['ginger', 'spice', 'flavor']
   ],
   [
     '🍳',

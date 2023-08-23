@@ -40,9 +40,31 @@ List animalsList = [
     ['accessibility', 'assistance', 'dog', 'service']
   ],
   [
+    '🫏',
+    'donkey',
+    ['donkey', 'grey donkey', 'mule', 'smugglers']
+  ],
+  [
+    '🫎',
+    'moose',
+    ['canada', 'cool as a moose', 'moose', 'sweden']
+  ],
+  [
     '🐩',
     'poodle',
     ['dog', 'poodle']
+  ],
+  [
+    '🪿',
+    'goose',
+    [
+      'goose',
+      'silly goose',
+      'wild goose chase',
+      'goosebump',
+      'goose pimple',
+      'duck duck goose'
+    ]
   ],
   [
     '🐺',
@@ -490,6 +512,11 @@ List animalsList = [
     ['blowfish', 'fish']
   ],
   [
+    '🪼',
+    'jellyfish',
+    ['fish', 'jellyfish']
+  ],
+  [
     '🦈',
     'shark',
     ['fish', 'shark']
@@ -610,6 +637,11 @@ List animalsList = [
     ['Buddhism', 'flower', 'Hinduism', 'India', 'purity', 'Vietnam']
   ],
   [
+    '🪻',
+    'hyacinth',
+    ['flower', 'hyacinth', 'nowruz', 'purple', 'spring']
+  ],
+  [
     '🏵',
     'rosette',
     ['plant', 'rosette']
@@ -698,6 +730,11 @@ List animalsList = [
     '🍁',
     'maple leaf',
     ['falling', 'leaf', 'maple']
+  ],
+  [
+    '🪽',
+    'wing',
+    ['wing', 'angel', 'time flies']
   ],
   [
     '🍂',

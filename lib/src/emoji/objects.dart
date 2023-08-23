@@ -1081,6 +1081,31 @@ List objectsList = [
     ['bacteria', 'biologist', 'biology', 'culture', 'lab', 'petri dish']
   ],
   [
+    '🪭',
+    'folding hand fan',
+    ['fan', 'folding fan', 'folding hand fan', 'hand fan']
+  ],
+  [
+    '🪮',
+    'hair pick',
+    ['black culture', 'comb', 'grooming', 'hair pick', 'self-care']
+  ],
+  [
+    '🪈',
+    'flute',
+    ['flute', 'bamboo', 'lord krishna']
+  ],
+  [
+    '🪇',
+    'maracas',
+    ['maracas', 'motif']
+  ],
+  [
+    '🪯',
+    'khanda',
+    ['khanda', 'sikhism']
+  ],
+  [
     '🧬',
     'dna',
     ['biologist', 'dna', 'evolution', 'gene', 'genetics', 'life']

@@ -10,7 +10,8 @@ environment:
 
 dependencies:
   isar: ^3.1.0+1
-  isar_flutter_libs: ^3.1.0+1
+  isar_flutter_libs:
+    git: https://github.com/kumsumit/isar_flutter_libs.git
   back_button_interceptor: ^7.0.0
   path_provider: 
     git: https://github.com/kumsumit/path_provider.git

@@ -3,13 +3,14 @@ version '1.0-SNAPSHOT'
 
 buildscript {
     ext.kotlin_version = '1.9.10'
+    ext.kotlin_coroutines_version = '1.7.3'
     repositories {
         google()
         mavenCentral()
     }
 
     dependencies {
-        c0lasspath 'com.android.tools.build:gradle:8.1.2'
+        classpath 'com.android.tools.build:gradle:8.1.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }

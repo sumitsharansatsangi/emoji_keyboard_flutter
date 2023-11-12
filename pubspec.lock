@@ -276,6 +276,15 @@ packages:
       url: "https://github.com/kumsumit/flutter_keyboard_visibility_windows.git"
     source: git
     version: "1.0.0"
+  flutter_lints:
+    dependency: "direct dev"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: c8bba96e459ffb40ec4ea116b1fc6d163f438e94
+      url: "https://github.com/kumsumit/flutter_lints.git"
+    source: git
+    version: "3.0.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -375,6 +384,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.8.1"
+  lints:
+    dependency: transitive
+    description:
+      name: lints
+      sha256: cbf8d4b858bb0134ef3ef87841abdf8d63bfc255c266b7bf6b39daa1085c4290
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.0"
   logging:
     dependency: transitive
     description:

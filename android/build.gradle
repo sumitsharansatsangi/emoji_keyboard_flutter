@@ -2,7 +2,7 @@ group 'nl.emoji_keyboard_flutter'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.9.10'
+    ext.kotlin_version = '1.9.20'
     ext.kotlin_coroutines_version = '1.7.3'
     repositories {
         google()

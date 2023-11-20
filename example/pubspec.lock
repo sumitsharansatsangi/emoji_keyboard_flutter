@@ -45,10 +45,10 @@ packages:
     dependency: transitive
     description:
       name: collection
-      sha256: f092b211a4319e98e5ff58223576de6c2803db36221657b46c82574721240687
+      sha256: ee67cb0715911d28db6bf4af1026078bd6f0128b07a5f66fb2ed94ec6783c09a
       url: "https://pub.dev"
     source: hosted
-    version: "1.17.2"
+    version: "1.18.0"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -88,50 +88,56 @@ packages:
   flutter_keyboard_visibility:
     dependency: transitive
     description:
-      name: flutter_keyboard_visibility
-      sha256: "4983655c26ab5b959252ee204c2fffa4afeb4413cd030455194ec0caa3b8e7cb"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.4.1"
+      path: "."
+      ref: HEAD
+      resolved-ref: "73aef62b37d80c3276bb5cc5695ae73e772e3295"
+      url: "https://github.com/kumsumit/flutter_keyboard_visibility.git"
+    source: git
+    version: "5.4.3"
   flutter_keyboard_visibility_linux:
     dependency: transitive
     description:
-      name: flutter_keyboard_visibility_linux
-      sha256: "6fba7cd9bb033b6ddd8c2beb4c99ad02d728f1e6e6d9b9446667398b2ac39f08"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "0200d49aaab5d9cbd7bbdfcb2439a2272370cc02"
+      url: "https://github.com/kumsumit/flutter_keyboard_visibility_linux.git"
+    source: git
     version: "1.0.0"
   flutter_keyboard_visibility_macos:
     dependency: transitive
     description:
-      name: flutter_keyboard_visibility_macos
-      sha256: c5c49b16fff453dfdafdc16f26bdd8fb8d55812a1d50b0ce25fc8d9f2e53d086
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "65c150b2568277df75ac52712970397865009b76"
+      url: "https://github.com/kumsumit/flutter_keyboard_visibility_macos.git"
+    source: git
     version: "1.0.0"
   flutter_keyboard_visibility_platform_interface:
     dependency: transitive
     description:
-      name: flutter_keyboard_visibility_platform_interface
-      sha256: e43a89845873f7be10cb3884345ceb9aebf00a659f479d1c8f4293fcb37022a4
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "44b3781c48f7b0052cae2a5675dd5e8328ff6d36"
+      url: "https://github.com/kumsumit/flutter_keyboard_visibility_platform_interface.git"
+    source: git
     version: "2.0.0"
   flutter_keyboard_visibility_web:
     dependency: transitive
     description:
-      name: flutter_keyboard_visibility_web
-      sha256: d3771a2e752880c79203f8d80658401d0c998e4183edca05a149f5098ce6e3d1
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: d2f0eb498a1aa2a32d36195115da3fa9142879b8
+      url: "https://github.com/kumsumit/flutter_keyboard_visibility_web.git"
+    source: git
     version: "2.0.0"
   flutter_keyboard_visibility_windows:
     dependency: transitive
     description:
-      name: flutter_keyboard_visibility_windows
-      sha256: fc4b0f0b6be9b93ae527f3d527fb56ee2d918cd88bbca438c478af7bcfd0ef73
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "83d70b7268ef73ed6496ee4789b1cc99624d1af6"
+      url: "https://github.com/kumsumit/flutter_keyboard_visibility_windows.git"
+    source: git
     version: "1.0.0"
   flutter_test:
     dependency: "direct dev"
@@ -154,10 +160,11 @@ packages:
   isar_flutter_libs:
     dependency: transitive
     description:
-      name: isar_flutter_libs
-      sha256: bc6768cc4b9c61aabff77152e7f33b4b17d2fc93134f7af1c3dd51500fe8d5e8
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "2a7699192a68e005fb737416e7f80b44bbbb2759"
+      url: "https://github.com/kumsumit/isar_flutter_libs.git"
+    source: git
     version: "3.1.0+1"
   js:
     dependency: transitive
@@ -187,10 +194,10 @@ packages:
     dependency: transitive
     description:
       name: meta
-      sha256: "3c74dbf8763d36539f114c799d8a2d87343b5067e9d796ca22b5eb8437090ee3"
+      sha256: a6e590c838b18133bb482a2745ad77c5bb7715fb0451209e1a7567d416678b8e
       url: "https://pub.dev"
     source: hosted
-    version: "1.9.1"
+    version: "1.10.0"
   path:
     dependency: transitive
     description:
@@ -202,50 +209,56 @@ packages:
   path_provider:
     dependency: transitive
     description:
-      name: path_provider
-      sha256: a1aa8aaa2542a6bc57e381f132af822420216c80d4781f7aa085ca3229208aaa
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "9f3f2100cf42f0c460ff5dfda8f2dae9ddb728ee"
+      url: "https://github.com/kumsumit/path_provider.git"
+    source: git
     version: "2.1.1"
   path_provider_android:
     dependency: transitive
     description:
-      name: path_provider_android
-      sha256: e595b98692943b4881b219f0a9e3945118d3c16bd7e2813f98ec6e532d905f72
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "8c8001a14283d8937b7de7d6a3fe33d339223e36"
+      url: "https://github.com/kumsumit/path_provider_android.git"
+    source: git
     version: "2.2.1"
   path_provider_foundation:
     dependency: transitive
     description:
-      name: path_provider_foundation
-      sha256: "19314d595120f82aca0ba62787d58dde2cc6b5df7d2f0daf72489e38d1b57f2d"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "63840279dea77c563a0daf4bda5cbdda604f86ba"
+      url: "https://github.com/kumsumit/path_provider_foundation.git"
+    source: git
     version: "2.3.1"
   path_provider_linux:
     dependency: transitive
     description:
-      name: path_provider_linux
-      sha256: f7a1fe3a634fe7734c8d3f2766ad746ae2a2884abe22e241a8b301bf5cac3279
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "4006480212e39589610324bf6854e6b8ced12964"
+      url: "https://github.com/kumsumit/path_provider_linux.git"
+    source: git
     version: "2.2.1"
   path_provider_platform_interface:
     dependency: transitive
     description:
-      name: path_provider_platform_interface
-      sha256: "94b1e0dd80970c1ce43d5d4e050a9918fce4f4a775e6142424c30a29a363265c"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: d96780dcd17f73cf7927614e931e6c4b993e5b68
+      url: "https://github.com/kumsumit/path_provider_platform_interface.git"
+    source: git
     version: "2.1.1"
   path_provider_windows:
     dependency: transitive
     description:
-      name: path_provider_windows
-      sha256: "8bc9f22eee8690981c22aa7fc602f5c85b497a6fb2ceb35ee5a5e5ed85ad8170"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "7569e770937cc541259e8ebd8f48b8a4c3a1f84c"
+      url: "https://github.com/kumsumit/path_provider_windows.git"
+    source: git
     version: "2.2.1"
   platform:
     dependency: transitive
@@ -258,10 +271,11 @@ packages:
   plugin_platform_interface:
     dependency: transitive
     description:
-      name: plugin_platform_interface
-      sha256: da3fdfeccc4d4ff2da8f8c556704c08f912542c5fb3cf2233ed75372384a034d
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "3f77202a425698dc76188933bde3738a0df4b21e"
+      url: "https://github.com/kumsumit/plugin_platform_interface.git"
+    source: git
     version: "2.1.6"
   sky_engine:
     dependency: transitive
@@ -280,18 +294,18 @@ packages:
     dependency: transitive
     description:
       name: stack_trace
-      sha256: c3c7d8edb15bee7f0f74debd4b9c5f3c2ea86766fe4178eb2a18eb30a0bdaed5
+      sha256: "73713990125a6d93122541237550ee3352a2d84baad52d375a4cad2eb9b7ce0b"
       url: "https://pub.dev"
     source: hosted
-    version: "1.11.0"
+    version: "1.11.1"
   stream_channel:
     dependency: transitive
     description:
       name: stream_channel
-      sha256: "83615bee9045c1d322bbbd1ba209b7a749c2cbcdcb3fdd1df8eb488b3279c1c8"
+      sha256: ba2aa5d8cc609d96bbb2899c28934f9e1af5cddbd60a827822ea467161eb54e7
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.1"
+    version: "2.1.2"
   string_scanner:
     dependency: transitive
     description:
@@ -312,10 +326,10 @@ packages:
     dependency: transitive
     description:
       name: test_api
-      sha256: "75760ffd7786fffdfb9597c35c5b27eaeec82be8edfb6d71d32651128ed7aab8"
+      sha256: "5c2f730018264d276c20e4f1503fd1308dfbbae39ec8ee63c5236311ac06954b"
       url: "https://pub.dev"
     source: hosted
-    version: "0.6.0"
+    version: "0.6.1"
   vector_math:
     dependency: transitive
     description:
@@ -328,10 +342,10 @@ packages:
     dependency: transitive
     description:
       name: web
-      sha256: dc8ccd225a2005c1be616fe02951e2e342092edf968cf0844220383757ef8f10
+      sha256: afe077240a270dcfd2aafe77602b4113645af95d0ad31128cc02bce5ac5d5152
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.4-beta"
+    version: "0.3.0"
   win32:
     dependency: transitive
     description:
@@ -343,11 +357,12 @@ packages:
   xdg_directories:
     dependency: transitive
     description:
-      name: xdg_directories
-      sha256: "589ada45ba9e39405c198fe34eb0f607cddb2108527e658136120892beac46d2"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "410932cf9651a439aa3e2c2f21098cc61e6daa8a"
+      url: "https://github.com/kumsumit/xdg_directories.git"
+    source: git
     version: "1.0.3"
 sdks:
-  dart: ">=3.1.0-185.0.dev <4.0.0"
-  flutter: ">=3.7.0"
+  dart: ">=3.2.0 <4.0.0"
+  flutter: ">=3.16.0"
